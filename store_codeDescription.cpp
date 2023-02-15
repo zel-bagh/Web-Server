@@ -1,0 +1,64 @@
+#include "tools_cpp.hpp"
+
+void    store_codeDescription(void)
+{
+    codeDescription["200"] = "OK";
+    codeDescription["201"] = "Created";
+    codeDescription["202"] = "Accepted";
+    codeDescription["203"] = "Non-Authoritative Information";
+    codeDescription["204"] = "No Content";
+    codeDescription["205"] = "Reset Content";
+    codeDescription["206"] = "Partial Content";
+    codeDescription["207"] = "Multi-Status";
+    codeDescription["208"] = "Already Reported";
+    codeDescription["226"] = "IM Used";
+    codeDescription["300"] = "Multiple Choices";
+    codeDescription["301"] = "Moved Permanently";
+    codeDescription["302"] = "Found (Previously \"Moved Temporarily\")";
+    codeDescription["303"] = "See Other";
+    codeDescription["304"] = "Not Modified";
+    codeDescription["305"] = "Use Proxy";
+    codeDescription["306"] = "Switch Proxy";
+    codeDescription["307"] = "Temporary Redirect";
+    codeDescription["308"] = "Permanent Redirect";
+    codeDescription["400"] = "Bad Request";
+    codeDescription["401"] = "Unauthorized";
+    codeDescription["402"] = "Payment Required";
+    codeDescription["403"] = "Forbidden";
+    codeDescription["404"] = "Not Found";
+    codeDescription["405"] = "Not Allowed";
+    codeDescription["406"] = "Not Acceptable";
+    codeDescription["407"] = "Proxy Authentication Required";
+    codeDescription["408"] = "Request Timeout";
+    codeDescription["409"] = "Conflict";
+    codeDescription["410"] = "Gone";
+    codeDescription["411"] = "Length Required";
+    codeDescription["412"] = "Precondition Failed";
+    codeDescription["413"] = "Payload Too Large";
+    codeDescription["414"] = "URI Too Long";
+    codeDescription["415"] = "Unsupported Media Type";
+    codeDescription["416"] = "Range Not Satisfiable";
+    codeDescription["417"] = "Expectation Failed";
+    codeDescription["418"] = "I'm a Teapot";
+    codeDescription["421"] = "Misdirected Request";
+    codeDescription["422"] = "Unprocessable Entity";
+    codeDescription["423"] = "Locked";
+    codeDescription["424"] = "Failed Dependency";
+    codeDescription["425"] = "Too Early";
+    codeDescription["426"] = "Upgrade Required";
+    codeDescription["428"] = "Precondition Required";
+    codeDescription["429"] = "Too Many Requests";
+    codeDescription["431"] = "Request Header Fields Too Large";
+    codeDescription["451"] = "Unavailable For Legal Reasons";
+    codeDescription["500"] = "Internal Server Error";
+    codeDescription["501"] = "Not Implemented";
+    codeDescription["502"] = "Bad Gateway";
+    codeDescription["503"] = "Service Unavailable";
+    codeDescription["504"] = "Gateway Timeout";
+    codeDescription["505"] = "HTTP Version Not Supported";
+    codeDescription["506"] = "Variant Also Negotiates";
+    codeDescription["507"] = "Insufficient Storage";
+    codeDescription["508"] = "Loop Detected";
+    codeDescription["510"] = "Not Extended";
+    codeDescription["511"] = "Network Authentication Required";
+}
