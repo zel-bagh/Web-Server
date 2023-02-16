@@ -1,2 +1,2 @@
 # Web-Server
-This project is an implementation on an HTTP server from scratch using C++ 98.
+This project is an implementation of an HTTP server from scratch using C++ 98.
